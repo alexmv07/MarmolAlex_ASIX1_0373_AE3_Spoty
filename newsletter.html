@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><title>Newsletter - JC Reyes</title></head>
+<body>
+<header>
+<h1>Suscríbete a la Newsletter de JC Reyes</h1>
+<nav>
+    <ul>
+        <li>
+            <a href="index.html">Inicio</a>
+        </li>
+        <li>
+            <a href="discografia.html">Discografía</a>
+        </li>
+        <li>
+            <a href="newsletter.html">Newsletter</a>
+        </li>
+    </ul>
+</nav>
+</header>
+<main>
+<form>
+<fieldset>
+<legend>Datos personales</legend>
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre" name="nombre" required><br>
+<label for="apellidos">Apellidos:</label>
+<input type="text" id="apellidos" name="apellidos" required><br>
+<label for="edad">Edad:</label>
+<input type="number" id="edad" name="edad" min="0" max="120"><br>
+<label for="pais">País:</label><select id="pais" name="pais"><option value="">Selecciona </option><option>España</option><option>México</option><option>Argentina</option><option>Chile</option></select><br>
+<label for="email">Correo electrónico:</label>
+<input type="email" id="email" name="email" required><br>
+</fieldset>
+<fieldset>
+<legend>Intereses</legend>
+<input type="checkbox" id="musica" name="intereses" value="musica">
+<label for="musica">Música nueva</label><br>
+<input type="checkbox" id="conciertos" name="intereses" value="conciertos">
+<label for="conciertos">Conciertos</label><br>
+<input type="checkbox" id="noticias" name="intereses" value="noticias">
+<label for="noticias">Noticias</label><br>
+</fieldset>
+<input type="submit" value="Enviar"><input type="reset" value="Borrar">
+</form>
+</body>
+</html>
